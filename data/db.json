@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": "c59a",
+      "name": "teste",
+      "price": "222",
+      "stock": "222"
+    },
+    {
+      "id": "e4f2",
+      "name": "ressss",
+      "price": "111",
+      "stock": "333"
+    },
+    {
+      "id": "0c3b",
+      "name": "ss",
+      "price": "2",
+      "stock": "2"
+    },
+    {
+      "id": "f5dd",
+      "name": "tggg",
+      "price": "11",
+      "stock": "222"
+    },
+    {
+      "id": "b401",
+      "name": "Uva",
+      "price": "12",
+      "stock": "30"
+    },
+    {
+      "id": "ef48",
+      "name": "Uva",
+      "price": "15",
+      "stock": "12"
+    },
+    {
+      "id": "fa5a",
+      "name": "Uva",
+      "price": "15",
+      "stock": "3012"
+    },
+    {
+      "id": "931e",
+      "name": "Uva",
+      "price": "15",
+      "stock": "301222"
+    },
+    {
+      "id": "d41f",
+      "name": "teste",
+      "price": "3",
+      "stock": "3"
+    }
+  ],
+  "users": [
+    {
+      "name": "Vitor Hugo de Souza",
+      "id": "1",
+      "password": "1234",
+      "email": "teste@teste.com"
+    }
+  ]
+}

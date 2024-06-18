@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate, useLocation  } from 'react-router-dom';
 import './App.css'
 
 import Login from './routes/Login.jsx';
@@ -11,15 +11,17 @@ import Footer from './components/Footer.jsx';
 function App() {
   const url = 'http://localhost:3000/users';
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
+
     const user = JSON.parse(window.localStorage.getItem('usuario'));
 
     if(!user) {
       return navigate("/login")
     }
 
-    navigate("/produtos")
+    if(location.pathname === '/') navigate("/produtos");
   }, [])
 
   return (

@@ -62,5 +62,15 @@
       "password": "1234",
       "email": "teste@teste.com"
     }
+  ],
+  "services": [
+    {
+      "descricao": "Conserto geladeira",
+      "preco": "10",
+      "custoMaoDeObra": "2",
+      "tempoServico": "1",
+      "ferramentaMaquinaUtilizada": "Instrumentos gerais2",
+      "id": "1"
+    }
   ]
 }

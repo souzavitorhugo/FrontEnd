@@ -11,9 +11,9 @@ export default function Products() {
     useEffect(() => {
         // Lista todos os produtos:
         const getProductsList = async() => {
-        const res = await fetch(url);
-        const data = await res.json();
-        setProducts(data);
+            const res = await fetch(url);
+            const data = await res.json();
+            setProducts(data);
         }
 
         getProductsList();
@@ -25,7 +25,7 @@ export default function Products() {
             <h2>Produtos</h2>
             <div>
                 {
-                products.length > 0 ? <ProductTable products={products} setProducts={setProducts}/> : <h3 style={{marginBottom: '30px'}}>Nenhum produto cadastrado...</h3>
+                    products.length > 0 ? <ProductTable products={products} setProducts={setProducts}/> : <h3 style={{marginBottom: '30px'}}>Nenhum produto cadastrado...</h3>
                 }
             </div>
         </>

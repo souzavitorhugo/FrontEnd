@@ -31,10 +31,10 @@
       "stock": "30"
     },
     {
-      "id": "ef48",
       "name": "Uva",
       "price": "15",
-      "stock": "12"
+      "stock": "11",
+      "id": "ef48"
     },
     {
       "id": "fa5a",
@@ -60,7 +60,17 @@
       "name": "Vitor Hugo de Souza",
       "id": "1",
       "password": "1234",
-      "email": "teste@teste.com"
+      "email": "teste@teste.com",
+      "dataNascimento": "26/07/21",
+      "sexo": "Masculino"
+    },
+    {
+      "name": "sdfsss",
+      "password": "213",
+      "email": "dasdadasdasd",
+      "dataNascimento": "2024-06-01",
+      "sexo": "we213",
+      "id": "af8e"
     }
   ],
   "services": [
